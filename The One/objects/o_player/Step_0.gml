@@ -78,6 +78,9 @@ if state == states.free{
 	{
 		if (alarm[0] < 0)
 		{
+			speed_ = [0,0];
+			sprite_index = dash_sprite;
+			image_index = 0;
 			alarm[1] = dash_duration;
 			state = states.dash;
 		}
@@ -92,6 +95,8 @@ if state == states.dash{
 	// Dash for dash duration
 	if alarm[1] > 0{
 		image_angle = dashdir;
+		
+		
 			
 		// Set speed to dash speed
 		speed_[h] = lengthdir_x(dash_speed, dashdir);
@@ -101,6 +106,9 @@ if state == states.dash{
 	}
 	
 	else{
+		// reset image angle
+		image_angle = dir
+		
 		// reset cooldown
 		alarm[0] = dash_cd;
 		

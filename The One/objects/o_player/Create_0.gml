@@ -25,6 +25,7 @@ cling_sprite = s_player_cling;
 jump_sprite = s_player_jump;
 run_sprite = s_player_run;
 hurt_sprite = noone;
+dash_sprite = s_player_dash;
 
 sprite = idle_sprite;
 
@@ -32,7 +33,7 @@ sprite = idle_sprite;
 dash_speed = 30;
 dashdir = point_direction(x, y, mouse_x, mouse_y);
 dash_cd = room_speed / 30;
-dash_duration = 1;
+dash_duration = 6;
 alarm[0] = 0;
 alarm[1] = 0;
 #endregion
