@@ -8,8 +8,8 @@
     "VTile": false,
     "bbox_bottom": 31,
     "bbox_left": 12,
-    "bbox_right": 18,
-    "bbox_top": 4,
+    "bbox_right": 24,
+    "bbox_top": 9,
     "bboxmode": 2,
     "colkind": 1,
     "coltolerance": 0,
@@ -816,7 +816,7 @@
             "isLocked": false,
             "name": "background",
             "opacity": 100,
-            "visible": true
+            "visible": false
         }
     ],
     "origin": 9,

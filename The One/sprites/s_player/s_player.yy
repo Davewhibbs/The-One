@@ -159,7 +159,7 @@
             "isLocked": false,
             "name": "background",
             "opacity": 100,
-            "visible": true
+            "visible": false
         }
     ],
     "origin": 9,

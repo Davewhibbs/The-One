@@ -7,8 +7,8 @@
     "HTile": false,
     "VTile": false,
     "bbox_bottom": 31,
-    "bbox_left": 9,
-    "bbox_right": 18,
+    "bbox_left": 13,
+    "bbox_right": 22,
     "bbox_top": 2,
     "bboxmode": 2,
     "colkind": 1,
@@ -159,7 +159,7 @@
             "isLocked": false,
             "name": "background",
             "opacity": 100,
-            "visible": true
+            "visible": false
         }
     ],
     "origin": 9,
@@ -173,6 +173,6 @@
     "textureGroupId": "1225f6b0-ac20-43bd-a82e-be73fa0b6f4f",
     "type": 0,
     "width": 32,
-    "xorig": 15,
+    "xorig": 16,
     "yorig": 32
 }
